@@ -47,7 +47,6 @@
            }
        },
        beforeMount() {
-
        },
        mounted() {
        },

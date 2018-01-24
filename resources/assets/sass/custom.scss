@@ -7,6 +7,10 @@
     min-height: 80px;
 }
 
+.navbar-header {
+    min-height: 80px;
+}
+
 .navbar-nav > li > a {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -26,7 +30,7 @@
 }
 
 .carousel-caption {
-    bottom: 25%;
+    bottom: 15%;
 }
 
 .domain-search {
@@ -57,4 +61,45 @@
 
 .footer ul li{
     color: $tertiary-color;
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .carousel {
+        margin-top: 140px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .carousel {
+        margin-top: 130px;
+    }
+
+    .carousel-caption {
+        bottom: 0% !important;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) { 
+    .carousel {
+        margin-top: 100px;
+    }
+
+    .carousel-caption {
+        bottom: 0% !important;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) { 
+    .carousel {
+        margin-top: 300px;
+    }
+
+    .carousel-caption {
+        bottom: 0% !important;
+    }
+    
 }

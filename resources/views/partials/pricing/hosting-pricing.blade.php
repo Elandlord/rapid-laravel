@@ -1,4 +1,4 @@
-<table class="table table-bordered space-outside-lg">
+<table class="table table-bordered space-outside-lg table-reflow hidden-xs">
     <tr>
         <td>
             <h3 class="space-inside-sides-md space-inside-up-md"><i class="material-icons font-lg space-inside-right-sm" style="position:relative; top: 12px;">move_to_inbox</i>Webhosting (shared)</h3>
@@ -52,3 +52,10 @@
         </td>
     </tr>
 </table>
+
+<ul class="list-group visible-xs space-inside-xl">
+  <li class="list-group-item">Webhosting (shared)</li>
+  <li class="list-group-item">Virtual Private Server</li>
+  <li class="list-group-item">Cloud hosting</li>
+  <li class="list-group-item">Managed hosting</li>
+</ul>

@@ -18,9 +18,7 @@ Hosting
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 space-inside-lg">
-                <h2>Pakketten </h2>
-                
-                @include('partials.pricing.hosting-pricing')
+                    <hosting-list></hosting-list>
                 </div>
             </div>
         </div>

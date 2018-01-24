@@ -18,7 +18,9 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 // search
-Vue.component('search', require('./components/search/SearchComponent.vue'))
+Vue.component('search', require('./components/search/SearchComponent.vue'));
+Vue.component('hosting-list', require('./components/pricing/hosting/HostingList.vue'));
+Vue.component('hosting-item', require('./components/pricing/hosting/HostingItem.vue'));
 
 const app = new Vue({
     el: '#app'

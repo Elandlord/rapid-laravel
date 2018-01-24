@@ -6,11 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title') - RAPIDE Internet</title>
         <link href="/css/app.css" rel="stylesheet">
-    
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <script>
         window.Laravel = <?php echo json_encode([
             'csrfToken' => csrf_token(),
-            
         ]); ?>
     </script>
     </head>

@@ -21,7 +21,7 @@
             <li><a href="/contact" class="{{ $key == 'contact' ? 'text-bold text-color-light border-sm border-bottom border-accent' : ''}} bg-main-hover-lighten-xs transition-fast border-hover-accent-bottom-sm">Contact</a></li>
         @endforeach
       </ul>
-      <form class="navbar-form navbar-right">
+      <form class="navbar-form navbar-right hidden-xs hidden-sm">
         <div class="form-group space-inside-up-sm">
           <search></search>
         </div>
