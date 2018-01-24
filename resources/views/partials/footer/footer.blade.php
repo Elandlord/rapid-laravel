@@ -59,7 +59,7 @@
         <div class="container">
             <div class="row space-inside-sm">
                 <div class="col-lg-12">
-                    <p class="text-color-tertiary inline-block">Alle rechten voorbehouden. &copy;<?php echo Date('Y') ?> <span>RAPIDE Internet</span></p>
+                    <p class="text-color-tertiary inline-block"><?php echo Date('Y') ?> &copy; <span>RAPIDE Internet</span></p>
                     <div class="inline-block text-color-light">
                         <a href="" class="inline-block space-inside-left-lg space-inside-right-sm">Disclaimer</a>
                         <a href="" class="inline-block space-inside-right-sm">Algemene voorwaarden</a>

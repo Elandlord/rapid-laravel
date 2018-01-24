@@ -25,3 +25,8 @@ Route::get('/', function () {
 Route::get('/hosting/pakketten', function () {
     return view('hosting.packages');
 });
+
+Route::get('/hosting/domeinen', function () {
+    return view('hosting.domains');
+});
+
