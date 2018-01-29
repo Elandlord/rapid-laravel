@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('title')
-Hosting
+Domeinen
 @endsection
 
 @section('content')

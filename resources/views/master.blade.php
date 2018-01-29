@@ -17,7 +17,10 @@
         <div id="app">
             @yield('content')
 
+            @include('partials.footer.phone-card')
+
             @include('partials.footer.footer')
+            
         </div>
         <script type="text/javascript" src="/js/app.js"></script>
     </body>

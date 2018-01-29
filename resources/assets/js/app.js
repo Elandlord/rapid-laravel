@@ -13,6 +13,7 @@ window.Vue = require('vue');
 import toaster from 'toastr/build/toastr.min';
 import Vue from 'vue';
 import {Tabs, Tab} from 'vue-tabs-component';
+import InfiniteLoading from 'vue-infinite-loading';
 
 window.toastr = toaster;
 
@@ -41,3 +42,9 @@ Vue.component('tab', Tab);
 const app = new Vue({
     el: '#app'
 });
+
+export default {
+    components: {
+      InfiniteLoading,
+    },
+};

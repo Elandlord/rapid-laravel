@@ -4,7 +4,7 @@
             <div class="row all-row-centered">
                 <div class="col-lg-12">
                     <h2 class="text-thin space-inside-down-sm">Onze <span class="text-bold">pakketten</span></h2>
-                    <p class="text-color-accent-darken-md font-md"> Selecteer hieronder een pakket. </p>
+                    <p class="text-color-accent-darken-md font-md"> Uw website of applicatie dient maximaal bereikbaar te zijn op het internet. Met ons flexibele hostingplatform heeft u een enorme rekenkracht tot uw beschikking die in een optimale beschikbaarheid van uw websites of applicaties resulteert.  </p>
                     <div>
                         <tabs cache-lifetime="10">
                             <tab name="Shared Hosting">
@@ -19,6 +19,9 @@
                                 <hosting-item name="Extra"></hosting-item>
                                 <hosting-item name="Mega"></hosting-item>
                                 <hosting-item name="Ultra"></hosting-item>
+                            </tab>
+                            <tab name="Managed Hosting">
+                                <hosting-item name="Test"></hosting-item>
                             </tab>
                         </tabs>
                     </div>
@@ -68,11 +71,15 @@
     }
 
     .tabs-component-tab:hover {
-    color: #666;
+        color: #FA6900;
+    }
+
+    .tabs-component:focus {
+        color: #FA6900;
     }
 
     .tabs-component-tab.is-active {
-    color: #000;
+        color: #FA6900;
     }
 
     .tabs-component-tab.is-disabled * {
