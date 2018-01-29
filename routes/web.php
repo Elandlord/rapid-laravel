@@ -30,3 +30,12 @@ Route::get('/hosting/domeinen', function () {
     return view('hosting.domains');
 });
 
+Route::get('/hosting/telefonie', function () {
+    return view('hosting.telephony');
+});
+
+Route::get('/hosting/online-werken', function () {
+    return view('hosting.online-work');
+});
+
+
