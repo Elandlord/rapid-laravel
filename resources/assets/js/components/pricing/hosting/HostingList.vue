@@ -1,24 +1,121 @@
 <template>
     <div>
-        <section class="container space-inside-sm animated fadeInDown wow">
+        <section class="container">
             <div class="row all-row-centered">
-                <div class="col-lg-12 space-inside-down-lg">
+                <div class="col-lg-12">
                     <h2 class="text-thin space-inside-down-sm">Onze <span class="text-bold">pakketten</span></h2>
-                    <p class="text-color-accent-darken-md font-md"> Een kleine greep uit onze pakketten </p>
+                    <p class="text-color-accent-darken-md font-md"> Selecteer hieronder een pakket. </p>
+                    <div>
+                        <tabs cache-lifetime="10">
+                            <tab name="Shared Hosting">
+                                <hosting-item name="E-mail"></hosting-item>
+                                <hosting-item name="Lite"></hosting-item>
+                                <hosting-item name="Basic"></hosting-item>
+                                <hosting-item name="Extra"></hosting-item>
+
+                            </tab>
+                            <tab name="VPS">
+                                <hosting-item name="Basic"></hosting-item>
+                                <hosting-item name="Extra"></hosting-item>
+                                <hosting-item name="Mega"></hosting-item>
+                                <hosting-item name="Ultra"></hosting-item>
+                            </tab>
+                        </tabs>
+                    </div>
                 </div>
-                <hosting-item></hosting-item>
-                <hosting-item></hosting-item>
-                <hosting-item></hosting-item>
             </div>
         </section>
     </div>
 </template>
 <style>
     .fade-enter-active, .fade-leave-active {
-      transition: opacity .5s
+        transition: opacity .5s
+        }
+        .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0
+        }
+
+        .tabs-component {
+    margin: 4em 0;
     }
-    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-      opacity: 0
+
+    .tabs-component-tabs {
+    border: solid 1px #ddd;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    }
+
+    @media (min-width: 700px) {
+    .tabs-component-tabs {
+        border: 0;
+        align-items: stretch;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: -1px;
+    }
+    }
+
+    .tabs-component-tab {
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 0;
+    list-style: none;
+    }
+
+    .tabs-component-tab:not(:last-child) {
+    border-bottom: dotted 1px #ddd;
+    }
+
+    .tabs-component-tab:hover {
+    color: #666;
+    }
+
+    .tabs-component-tab.is-active {
+    color: #000;
+    }
+
+    .tabs-component-tab.is-disabled * {
+    color: #cdcdcd;
+    cursor: not-allowed !important;
+    }
+
+    @media (min-width: 700px) {
+    .tabs-component-tab {
+        background-color: #fff;
+        border-radius: 3px 3px 0 0;
+        margin-right: .5em;
+        transform: translateY(2px);
+        transition: transform .3s ease;
+    }
+
+    .tabs-component-tab.is-active {
+        z-index: 2;
+        transform: translateY(0);
+        }
+    }
+
+    .tabs-component-tab-a {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    padding: .75em 1em;
+    text-decoration: none;
+    }
+
+    .tabs-component-panels {
+    padding: 4em 0;
+    }
+
+    @media (min-width: 700px) {
+    .tabs-component-panels {
+        border-top-left-radius: 0;
+        background-color: #fff;
+        border: solid 1px #ddd;
+        border-radius: 0 6px 6px 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+        padding: 4em 2em;
+    }
     }
 </style>
 <script>
