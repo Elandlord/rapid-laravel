@@ -8,7 +8,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="/images/fixed/logo.png" style="height: 50px;" /></a>
+      <a class="navbar-brand" href="/">
+          <img id="logo" class="transition-fast" src="/images/fixed/logo.png" />
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

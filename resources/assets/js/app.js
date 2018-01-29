@@ -48,3 +48,15 @@ export default {
       InfiniteLoading,
     },
 };
+
+$(document).ready( function() {
+    $(window).scroll(function() {
+        if($(window).scrollTop() > 300) { //scrolled past 300px marker?
+            $("#logo").addClass("shrink") //reached the desired point -- show div
+            $("#navbar").addClass("shrink-navbar") //reached the desired point -- show div
+        }else{
+            $("#logo").removeClass("shrink"); // scroll out of desired point -- hide div
+            $("#navbar").removeClass("shrink-navbar") //reached the desired point -- show div
+        }
+    });
+});

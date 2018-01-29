@@ -16,8 +16,6 @@
 | Hosting routes
 |--------------------------------------------------------------------------
 */
-
-
 Route::get('/', function () {
     return view('hosting.home');
 });
@@ -37,5 +35,15 @@ Route::get('/hosting/telefonie', function () {
 Route::get('/hosting/online-werken', function () {
     return view('hosting.online-work');
 });
+
+/*
+|--------------------------------------------------------------------------
+| Ontwikkeling/development routes
+|--------------------------------------------------------------------------
+*/
+Route::get('/ontwikkeling', function () {
+    return view('development.home');
+});
+
 
 

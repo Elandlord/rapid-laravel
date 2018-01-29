@@ -8,19 +8,33 @@
                     <div>
                         <tabs cache-lifetime="10">
                             <tab name="Shared Hosting">
+                                <div class="space-outside-down-md">
+                                    <h3 class="text-color-accent text-bold space-outside-down-sm">Shared Hosting</h3>
+                                    <p class="space-inside-sides-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra turpis mi, id tincidunt massa mollis ac. Ut nec velit nisl. Praesent rutrum porttitor sapien, ut lobortis libero facilisis vitae. Integer at massa pharetra ante molestie dignissim. 
+                                        Mauris vel mollis odio. Nam dictum dui quis volutpat faucibus. Aenean ut posuere leo. <a href="" class="text-color-accent">Lees meer</a></p>
+                                </div>
                                 <hosting-item name="E-mail"></hosting-item>
                                 <hosting-item name="Lite"></hosting-item>
                                 <hosting-item name="Basic"></hosting-item>
                                 <hosting-item name="Extra"></hosting-item>
-
                             </tab>
                             <tab name="VPS">
+                                <div class="space-outside-down-md">
+                                    <h3 class="text-color-accent text-bold space-outside-down-sm">VPS</h3>
+                                    <p class="space-inside-sides-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra turpis mi, id tincidunt massa mollis ac. Ut nec velit nisl. Praesent rutrum porttitor sapien, ut lobortis libero facilisis vitae. Integer at massa pharetra ante molestie dignissim. 
+                                        Mauris vel mollis odio. Nam dictum dui quis volutpat faucibus. Aenean ut posuere leo. <a href="" class="text-color-accent">Lees meer</a></p>
+                                </div>
                                 <hosting-item name="Basic"></hosting-item>
                                 <hosting-item name="Extra"></hosting-item>
                                 <hosting-item name="Mega"></hosting-item>
                                 <hosting-item name="Ultra"></hosting-item>
                             </tab>
                             <tab name="Managed Hosting">
+                                <div class="space-outside-down-md">
+                                    <h3 class="text-color-accent text-bold space-outside-down-sm">Managed Hosting</h3>
+                                    <p class="space-inside-sides-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pharetra turpis mi, id tincidunt massa mollis ac. Ut nec velit nisl. Praesent rutrum porttitor sapien, ut lobortis libero facilisis vitae. Integer at massa pharetra ante molestie dignissim. 
+                                        Mauris vel mollis odio. Nam dictum dui quis volutpat faucibus. Aenean ut posuere leo. <a href="" class="text-color-accent">Lees meer</a></p>
+                                </div>
                                 <hosting-item name="Test"></hosting-item>
                             </tab>
                         </tabs>
