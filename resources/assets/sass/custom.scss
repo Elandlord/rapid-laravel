@@ -29,6 +29,16 @@
     text-shadow: 0 4px 0 rgba(0,0,0,0.3), 0 3px 10px rgba(0,0,0,0.4), 0 5px 50px #333
 }
 
+// .banner-text-shadow::after{
+//     position: absolute;
+//     right: 115px;
+//     bottom: 190px;
+//     height: 5px;
+//     width: 220px;
+//     content: "\A";
+//     background: #fa6900;
+// }
+
 .carousel-caption {
     bottom: 15%;
 }
@@ -102,4 +112,14 @@
         bottom: 0% !important;
     }
     
+}
+
+.scroll-domain {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.scroll-container {
+    border-top: 15px solid $secondary-color;
+    border-bottom: 15px solid $secondary-color;
 }
