@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="bg-main">
+    <div class="bg-main hidden-xs">
         <div class="container">
             <div class="row space-inside-md">
                 <div class="col-lg-3 col-md-5 col-xs-12 col-sm-5 xs-text-center sm-space-inside-sm xs-space-inside-sm text-color-secondary">

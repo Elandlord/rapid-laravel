@@ -18,7 +18,7 @@ Online werken
         <section class="container space-inside-xl">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-thin space-inside-down-sm"><span class="text-bold">Online werken in de cloud</span></h2>
+                    <h2 class="text-thin space-inside-down-sm">Online werken in de <span class="text-bold">cloud</span></h2>
                     <p class="text-color-accent-darken-md font-md"> Met online werken bij RAPIDE wordt samenwerken pas echt efficiënt. Vanuit de cloud beheer je eenvoudig je documenten, agenda en e-mail. </p>
                 </div>
             </div>

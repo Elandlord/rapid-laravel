@@ -15,7 +15,7 @@ Pakketten
     </div>
 
     <div class="bg-secondary">
-        <div class="container">
+        <div class="container space-inside-sm">
             <div class="row">
                 <div class="col-lg-12 space-inside-lg">
                     <hosting-list></hosting-list>

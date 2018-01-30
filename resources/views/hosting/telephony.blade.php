@@ -19,7 +19,7 @@ Telefonie
         <section class="container space-inside-xl">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-thin space-inside-down-sm"><span class="text-bold">Bellen via het internet</span></h2>
+                    <h2 class="text-thin space-inside-down-sm text-light">Bellen via het <span class="text-bold">internet</span></h2>
                     <p class="text-color-accent-darken-md font-md"> Bij IP-telefonie, Voice over IP of VoIP wordt het internet of een ander IP-netwerk gebruikt om spraak te transporteren. Hierdoor wordt telefonie mogelijk op datanetwerken en ontstaat de mogelijkheid om de voorheen traditioneel gescheiden werelden van spraak en data samen te voegen. Hierdoor is nog slechts één infrastructuur nodig en kunnen bovendien nieuwe producten en diensten worden ontwikkeld. Het werken met op VoIP gebaseerde telefooncentrales is binnen bedrijven inmiddels gemeengoed geworden.</p>
                 </div>
             </div>
@@ -52,7 +52,7 @@ Telefonie
         <section class="container space-inside-xl">
             <div class="row all-row-centered">
                 <div class="col-lg-12 space-inside-down-lg">
-                    <h2 class="text-thin space-inside-down-sm space-inside-md text-left"><span class="text-bold">Wat zijn de kosten?</span></h2>
+                    <h2 class="text-thin space-inside-down-sm space-inside-md text-left">Wat zijn de <span class="text-bold">kosten?</span></h2>
 
                     <p class="text-left">Je bepaalt zelf hoe uitgebreid je je telefonie maakt en betaalt alleen voor wat je gebruikt. Je zit nergens aan vast, want alle diensten zijn per dag opzegbaar.</p>
 
@@ -66,7 +66,7 @@ Telefonie
                     </div>
 
                     <div class="space-inside-sides-md space-inside-up-md">							  	
-                        <h2 class="font-md text-bold space-outside-down-xs text-center">1-3 collega's</h2>
+                        <h2 class="font-md text-bold space-outside-down-xs text-center">1 tot 3 collega's</h2>
                         <p class="font-md text-center italic space-outside-down-sm"><span class="text-color-accent text-bold">&euro;</span> 7,- per collega per <strong>maand</strong></p>
 
                         <p style="line-height:18px;" class="inline-block text-color-accent-darken-md">
@@ -91,7 +91,7 @@ Telefonie
                     </div>
 
                     <div class="space-inside-sides-md space-inside-up-md">							  	
-                        <h2 class="font-md text-bold space-outside-down-xs text-center">4-19 collega's</h2>
+                        <h2 class="font-md text-bold space-outside-down-xs text-center">4 tot 19 collega's</h2>
                         <p class="font-md text-center italic space-outside-down-sm"><span class="text-color-accent text-bold">&euro;</span> 5,50 per collega per <strong>maand</strong></p>
 
                         <p style="line-height:18px;" class="inline-block text-color-accent-darken-md">
@@ -116,7 +116,7 @@ Telefonie
                     </div>
 
                     <div class="space-inside-sides-md space-inside-up-md">							  	
-                        <h2 class="font-md text-bold space-outside-down-xs text-center">20-50 collega's</h2>
+                        <h2 class="font-md text-bold space-outside-down-xs text-center">20 tot 50 collega's</h2>
                         <p class="font-md text-center italic space-outside-down-sm"><span class="text-color-accent text-bold">&euro;</span> 3,- per collega per <strong>maand</strong></p>
 
                         <p style="line-height:18px;" class="inline-block text-color-accent-darken-md">
